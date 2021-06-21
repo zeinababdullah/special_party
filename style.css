@@ -1,0 +1,1881 @@
+* {
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box;
+  
+}
+body {
+  font-family: Arial;
+}
+
+/*body {
+    color: #333333;
+    color: #FE7FA5;
+    color: #F96E98;
+    color: #EF7197;
+}*/
+
+
+.hide_icon {
+  /*------------------using for hidden--------------------*/
+  display: none;
+}
+.show {
+  display: block;
+}
+/*-----------------------------start navbar section----------------------------------------*/
+/*---------------------start first nav----------------------*/
+#nav .black_nav {
+  background-color: #333333;
+  color: white;
+  margin-bottom: -25px;
+}
+#nav .contain {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 11px;
+  padding-top: 8px;
+  max-height: 35px;
+}
+#nav .contain i {
+  padding-top: 5px;
+}
+#nav .left_info {
+  display: flex;
+  margin-left: 80px;
+}
+#nav .dropdown-toggle{ /*-------------*/
+  color: white;
+  background-color: #333333;
+  border: none;
+}
+#nav .dropdown button:focus{ /*-------------*/
+  outline: none;
+}
+#nav .dropdown .dropdown-menu{ /*-------------*/
+  min-width: 5rem;
+  margin: .240rem -2.5rem 0;
+  padding: 0.0rem;
+}
+#nav .dropdown .dropdown-item{ /*-------------*/
+  color: white;
+  background-color: #333333;
+  font-size: small;
+  border: 0.5px solid white;
+}
+#nav .left_info .favor {
+  display: flex;
+  margin-left: 50px;
+}
+#nav .left_info .favor p {
+  margin-right: 10px;
+}
+#nav .right_info {
+  display: flex;
+  margin-right: 80px;
+}
+#nav .right_info .contact-us {
+  display: flex;
+  margin-right: 40px;
+}
+#nav .right_info .contact-us p {
+  margin-right: 10px;
+}
+/*--------------------end first nav-------------------*/
+/*---------------------start main nav--------------------------*/
+#nav .main_nav {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+#nav .icons img {
+  margin: 20px;
+}
+#nav .main_nav{
+  margin-left: 15%;
+}
+#nav .navbar-nav li a {
+  color: #333333;
+  font-weight: bold;
+}
+#nav .nav-item .nav-link:hover {
+  border-bottom: #fe7fa5 2px solid;
+}
+/*---------------------------------start search effect-------------------------*/
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #333333;
+  opacity: 0.96;
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: #f58aaa;
+}
+
+.overlay .closebtn:hover {
+  color: #f96e98;
+}
+
+.overlay input[type="text"] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type="text"]:hover {
+  background: #f1f1f1;
+  border-color: #f58aaa;
+}
+
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #f58aaa;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #f96e98;
+}
+/*------------end search action---------------*/
+/*---------------------end main nav--------------------------*/
+/*-----------------------------end navbar section----------------------------------------*/
+
+/*-------------------------- start one page------------------------------------*/
+/*-------------------------------------start slider section-----------------------------------*/
+#slider .slider_img_container{    /*------------------------*/
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+#slider .slider_img_container img{     /*-----------------------*/
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#pay_page9 .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#pay_page9 .header2_container_image img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#slider .carousel-caption {
+  margin-bottom: 10%;
+}
+#slider .carousel-caption span {
+  color: #fe7fa5;
+}
+#slider .carousel-caption h1 {
+  color: #333333;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+#slider .carousel-caption p {
+  color: #333333;
+  margin-bottom: 20px;
+}
+#slider .carousel-item button {
+  background-color: #fe7fa5;
+  color: white;
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 120px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  transition: width 0.5s ease;
+}
+#slider .btn:hover {
+  box-shadow: 0 12px 16px 0 #f7d9e1;
+  width: 170px;
+  color: #fe7fa5;
+  background-color: #f7d9e1;
+  border: #f96e98 1px solid;
+  font-weight: bolder;
+}
+
+#slider .pre_next {
+  color: #333333;
+  background-color: #fe7fa5;
+}
+
+#slider .next_prev span {
+  background-color: #fe7fa5;
+}
+/*-------------------------------------end slider section-----------------------------*/
+
+/*------------------------------------start shoping section------------------------------*/
+#shopping .header_shopping {
+  margin-top: 50px;
+}
+#shopping .header_shopping h1 {
+  margin-top: -18px;
+}
+.title::before {
+  content: "";
+  background-color: #fe7fa5;
+  height: 3px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.title::after {
+  content: "";
+  background-color: #fe7fa5;
+  height: 10px;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+/*---------------------------------------------------------------------*/
+#shopping .back_photo {
+  background-image: url("images/Group 63.png");
+}
+#shopping .gallery {
+  padding-top: 50px;
+}
+#shopping .gallery .image:hover {
+  opacity: 0.7;
+}
+.gallery .part_grid {
+  position: relative;
+}
+#shopping .img-container{    /*---------------*/
+  width: 300px;
+  height: 255px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+#shopping .img-container img{   /*-------------------*/
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#shopping .img-container1{   /*--------------*/
+  width: 450px;
+  height: 540px;
+  overflow: hidden;
+}
+#shopping .img-container1 img{   /*------------------*/
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+.gallery .same_btn {
+  background-color: white;
+  color: #333333;
+  width: 120px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  height: 55px;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transition: top 0.5s;
+}
+.gallery .same_btn:hover {
+  top: 48%;
+  background-color: white;
+  color: #333333;
+  opacity: 0.9;
+}
+.gallery .same_btn span {
+  color: #f96e98;
+  font-size: 10px;
+}
+.gallery .difer_btn {
+  background-color: #333333;
+  color: white;
+  width: 120px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  height: 55px;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  -ms-transform: translate(-40%, -50%);
+  transition: top 0.5s;
+}
+.gallery .difer_btn:hover {
+  top: 49%;
+  background-color: #333333;
+  color: white;
+  opacity: 0.9;
+}
+.gallery .difer_btn span {
+  font-size: 10px;
+}
+/*-------------------------------------end shopping section-------------------------------*/
+/*-------------------------------------start special secion---------------------------------*/
+#special {
+  margin-top: 40px;
+}
+#special .header_shopping img {
+  margin-bottom: -15px;
+}
+#special .header_shopping button {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  color: #333333;
+  background-color: white;
+  border-radius: 20px;
+  width: 70px;
+  font-size: 12px;
+  font-weight: bold;
+  border-color: #333333;
+  transition: width 0.5s ease;
+}
+#special .header_shopping button:hover {
+  color: white;
+  background-color: #fe7fa5;
+  border: none;
+  width: 120px;
+  font-weight: bolder;
+}
+#special .header_shopping .middle {
+  width: 100px;
+  margin-top: 0px;
+}
+#special .header_shopping .middle:hover {
+  width: 160px;
+  font-weight: bolder;
+}
+.products .content {
+  position: relative;
+}
+#special .products{
+  margin-top: 10px;
+}
+#special .grid_image{
+  width: 100%;
+}
+#special .grid_image:hover {
+  opacity: 0.6;
+}
+.products .content .icons {
+  position: absolute;
+  top: 50%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.products .content .icons i {
+  border-radius: 50%;
+  margin-top: 5px;
+  height: 25px;
+  background-color: white;
+  cursor: pointer;
+}
+.products .content .icons i:hover {
+  border-radius: 50%;
+  margin-top: 5px;
+  height: 25px;
+  background-color: white;
+  border-color: #333333;
+}
+.stars {
+  color: rgb(245, 193, 96);
+  margin-top: 5px;
+}
+.details {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #333333;
+}
+.details span {
+  color: #f96e98;
+}
+/*-------------------------------------end special secion---------------------------------*/
+/*-------------------------------------start show section-------------------------------*/
+#show{
+  margin-bottom: 80px;
+}
+#show .right_image {
+  cursor: pointer;
+  width: 100%;
+  transition: width 0.5s ease;
+}
+#show .right_image:hover {
+  opacity: 0.7;
+  width: 99%;
+}
+
+#show .left_image {
+  cursor: pointer;
+  width: 100%;
+  transition: width 0.5s ease;
+}
+#show .left_image:hover {
+  opacity: 0.7;
+  width: 99%;
+}
+#show .details_on_img{
+  position: relative;
+}
+#show .details_on_img .some_details_image{
+  position: absolute;
+  top: 20%;
+  text-align: right;
+  margin-left: 50%;
+  font-weight: bold;
+}
+#show .details_on_img .some_details_image span{
+  color: #f96e98;
+}
+#show .details_on_img .some_details_image button{
+  width: 50%;
+  border-radius: 20px;
+}
+#show .details_on_img .some_details_image button:hover{
+  opacity: 0.7;
+}
+/*----------------------------------end show section----------------------------*/
+
+/*-----------------------------------start discound section-----------------------------*/
+#discound .sales {
+  margin-top: 50px;
+  background-image: url("images/Image 18.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: 100%;
+  height: 450px;
+  position: relative;
+}
+#discound .header_show {
+  position: absolute;
+  right: 45%;
+  top: 40px;
+}
+#discound .header_show img {
+  width: 60%;
+}
+#discound .slider img:hover {
+  opacity: 0.5;
+}
+#discound .stars,
+p {
+  cursor: pointer;
+}
+#discound .header_show h1 {
+  font-weight: bold;
+}
+#discound .slider {
+  padding-top: 20%;
+  width: 90%;
+  padding-left: 15%;
+}
+.slider .card {
+  border: none;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 15px;
+}
+.owl-dot {
+  height: 8px;
+  width: 8px;
+  cursor: pointer;
+  border: 0.5px solid #f96e98 !important;
+  border-radius: 50%;
+  outline: none;
+  margin: 2px;
+}
+.owl-dot:hover,
+.owl-dot:active,
+.owl-dot:focus{
+  background-color: #f96e98 !important;
+  border: none;
+  outline: none;
+}
+/*-------------------------------------end discound section----------------------------------*/
+/*----------------------------------end one page--------------------------------------*/
+
+/*--------------------------------------start two page(من نحن)------------------------*/
+/*----------------------------start front page2-----------------*/
+#header2 .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#header2 .header2_container_image img{   
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#header2 .caption_header_photo{
+  position: relative;
+}
+#header2 .caption_header_photo p{
+position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #333333;
+}
+#header2 .caption_header_photo p span{
+  font-size: large;
+  font-weight: bold;
+}
+/*#header2 .slider_img_container img{ 
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}*/
+#header2 .header2_front {
+  margin-bottom: 100px;
+  margin-top: -320px;
+}
+#header2 .header2_best_content {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+#header2 .header2_details img {
+  width: 20%;
+  margin-bottom: 5px;
+}
+#header2 .header2_details h3 {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#header2 .header2_details p {
+  font-size: 12px;
+}
+/*---------------------------end front page 2----------------------------*/
+
+/*------------------------------start animation numbers------------------*/
+#animation_number {
+  margin-bottom: 100px;
+}
+#animation_number .vl1 {
+  border-left: 2px solid #f96e98;
+  height: 70px;
+  position: absolute;
+  left: 0%;
+  margin-left: -3px;
+  top: 0;
+}
+#animation_number .counter {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 8px;
+}
+#animation_number h5 {
+  color: #333333;
+  opacity: 0.9;
+}
+/*----------------------------end animation numbers---------------------*/
+
+/*--------------------------start common section---------------------------*/
+#common_part {
+  margin-bottom: 120px;
+}
+#common_part .common_back_photo {
+  background-image: url("images/Mask Group 10 page2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 450px;
+  position: relative;
+}
+#common_part .all_commom_details {
+  margin-top: 80px;
+  left: 50%;
+}
+#common_part .column_common_details {
+  margin-bottom: 15px;
+}
+#common_part .common_details {
+  text-align: right;
+  border: 0.001px solid #b9b7b7;
+  background-color: white;
+  width: 75%;
+  height: 100%;
+}
+#common_part h6 {
+  text-align: right;
+  font-weight: bold;
+  margin: 15px;
+  font-size: 15px;
+  margin-bottom: -15px;
+}
+#common_part i {
+  float: left;
+  margin-left: 6px;
+  margin-top: 15px;
+}
+#common_part p {
+  margin-right: 0px;
+  margin-left: 0px;
+  font-size: 12px;
+  margin: 12px;
+}
+/*----------------------------end common section-------------------------*/
+/*--------------------------------------end two page(من نحن)----------------------------*/
+
+/*--------------------------------start three page(انشاء حساب)---------------*/
+#logIn_page3 .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#logIn_page3 .header2_container_image img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#logIn_page3 .caption_header_photo{
+  position: relative;
+}
+#logIn_page3 .caption_header_photo p{
+position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #333333;
+}
+#logIn_page3 .caption_header_photo p span{
+  font-size: large;
+  font-weight: bold;
+}
+#logIn_page3 .slider_img_container img{ 
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#logIn_page3 .log_in_page3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 0.5px solid whitesmoke;
+  width: 55%;
+  height: 430px;
+  margin-left: 22%;
+  margin-right: 20%;
+  position: relative;
+  box-shadow: 2px 2px 30px 0px rgba(192, 181, 181, 0.75);
+}
+#logIn_page3 h6 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+}
+#logIn_page3 .form {
+  margin-top: 40px;
+}
+#logIn_page3 .inputBx input {
+  width: 75%;
+  position: relative;
+  margin: 8px;
+  border-radius: 15px;
+  border: 0.8px solid #afafaf;
+  height: 35px;
+  text-align: right;
+}
+#logIn_page3 .form input:focus {
+  outline: none;
+  border-radius: 15px;
+}
+#logIn_page3 .form input::placeholder{
+  margin-left: 12px;
+}
+#logIn_page3 .inputBx img {
+  float: left;
+  margin-left: -75%;
+  margin-top: 17px;
+  opacity: 1;
+  position: absolute;
+}
+#logIn_page3 button {
+  margin-top: 30px;
+  width: 18%;
+  font-size: 18px;
+  background-color: #fe7fa5;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+}
+#logIn_page3 button:active {
+  outline: none;
+}
+#logIn_page3 button span {
+  color: white;
+  text-align: center;
+}
+/*--------------------------------end three page(انشاء حساب)---------------*/
+
+/*-------------------------------start four page(تسجيل الدخول)-------------------*/
+#logIn_page4 .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#logIn_page4 .header2_container_image img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#logIn_page4 .caption_header_photo{
+  position: relative;
+}
+#logIn_page4 .caption_header_photo p{
+position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #333333;
+}
+#logIn_page4 .caption_header_photo p span{
+  font-size: large;
+  font-weight: bold;
+}
+#logIn_page4 .slider_img_container img{ 
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#logIn_page4 .log_in_page3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 0.5px solid whitesmoke;
+  width: 55%;
+  height: 330px;
+  margin-left: 22%;
+  margin-right: 20%;
+  position: relative;
+  box-shadow: 2px 2px 30px 0px rgba(192, 181, 181, 0.75);
+}
+#logIn_page4 h6 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+}
+#logIn_page4 .form {
+  margin-top: 40px;
+}
+#logIn_page4 .inputBx input {
+  width: 75%;
+  position: relative;
+  margin: 8px;
+  border-radius: 15px;
+  border: 0.8px solid #afafaf;
+  height: 35px;
+  text-align: right;
+}
+#logIn_page4 .form input:focus {
+  outline: none;
+  border-radius: 15px;
+}
+#logIn_page4 .form input::placeholder {
+  /* Firefox, Chrome, Opera */ 
+  margin-left: 12px; 
+}
+#logIn_page4 .inputBx img {
+  float: left;
+  margin-left: -75%;
+  margin-top: 17px;
+  opacity: 1;
+  position: absolute;
+}
+#logIn_page4 button {
+  margin-top: 30px;
+  width: 18%;
+  font-size: 18px;
+  background-color: #fe7fa5;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+}
+#logIn_page4 button:active {
+  outline: none;
+}
+#logIn_page4 button span {
+  color: white;
+  text-align: center;
+}
+/*-------------------------------end four page(تسجيل الدخول)-------------------*/
+
+/*------------------------------start five page(اتصل بنا)-------------------*/
+#contact_us_page5 .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#contact_us_page5 .header2_container_image img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#contact_us_page5 .caption_header_photo{
+  position: relative;
+}
+#contact_us_page5 .caption_header_photo p{
+position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #333333;
+}
+#contact_us_page5 .caption_header_photo p span{
+  font-size: large;
+  font-weight: bold;
+}
+#contact_us_page5 .slider_img_container img{ 
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#contact_us_page5 .content_page5 {
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+#contact_us_page5 .content_page5 h6 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 70px;
+}
+#contact_us_page5 .inputBx {
+  width: 80%;
+}
+#contact_us_page5 .inputBx input {
+  width: 75%;
+  position: relative;
+  margin: 8px;
+  border: 0.8px solid #afafaf;
+  height: 35px;
+  text-align: right;
+}
+#contact_us_page5 .inputBx input:focus {
+  outline: none;
+}
+#contact_us_page5 .inputBx input::placeholder {
+  /* Firefox, Chrome, Opera */ 
+  margin-left: 10px; 
+} 
+#contact_us_page5 .inputBx img {
+  float: left;
+  margin-left: -70%;
+  margin-top: 17px;
+  opacity: 1;
+  position: absolute;
+}
+#contact_us_page5 textarea {
+  width: 50%;
+  height: 200px;
+  border: 0.8px solid #afafaf;
+  color: #646363;
+  position: relative;
+  margin-top: 15px;
+}
+#contact_us_page5 textarea:focus {
+  outline: none;
+}
+#contact_us_page5 .write_icon {
+  position: absolute;
+  margin-left: -1.3%;
+  margin-top: 1.5%;
+}
+#contact_us_page5 p {
+  margin-top: 20px;
+  color: #646363;
+  font-weight: bold;
+  font-size: 18px;
+}
+#contact_us_page5 button {
+  margin-top: 30px;
+  width: 18%;
+  font-size: 18px;
+  background-color: #fe7fa5;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+}
+#contact_us_page5 button:active {
+  outline: none;
+}
+#contact_us_page5 button span {
+  color: white;
+  text-align: center;
+}
+
+/*------------------------------end five page(اتصل بنا)-----------------*/
+
+/*---------------------------------start six page(التصنيفات)--------------------*/
+#rings_page6 .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#rings_page6 .header2_container_image img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#rings_page6 .caption_header_photo{
+  position: relative;
+}
+#rings_page6 .caption_header_photo p{
+position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #333333;
+}
+#rings_page6 .caption_header_photo p span{
+  font-size: large;
+  font-weight: bold;
+  
+}
+#rings_page6 .slider_img_container img{ 
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#rings_page6 .rings {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+#rings_page6 .right_rings img {
+  margin-left: 78%;
+}
+#rings_page6 .right_rings h6 {
+  font-weight: bolder;
+  font-size: larger;
+  color: #333333;
+  text-align: right;
+  position: relative;
+}
+#rings_page6 .right_rings h6::after {
+  content: "";
+  position: absolute;
+  border-top: 1.9px solid #fe7fa5;
+  left: 70%;
+  margin-top: 30px;
+  width: 30%;
+  height: 0px;
+}
+#rings_page6 .right_rings p {
+  font-weight: bold;
+  color: #333333;
+  text-align: right;
+  font-size: large;
+}
+#rings_page6 .right_rings p button {
+  background-color: #f96e98;
+  color: white;
+  border: none;
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#rings_page6 .right_rings p button:focus {
+  outline: none;
+}
+#rings_page6 .many_rings {
+  text-align: right;
+  margin-top: 20px;
+}
+#rings_page6 .many_rings h6 {
+  font-weight: bold;
+  font-size: large;
+}
+#rings_page6 .many_rings h6::after {
+  content: "";
+  position: absolute;
+  border-top: 1.9px solid #fe7fa5;
+  left: 80%;
+  margin-top: 30px;
+  width: 15%;
+  height: 0px;
+}
+#rings_page6 .many_rings .first_rings {
+  margin-top: 25px;
+}
+#rings_page6 .many_rings .first_rings .form-check-input{
+  left: 0;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.container-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border: 1px solid #f96e98;
+  border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.container-checkbox:hover input ~ .checkmark {
+  background-color: white;
+  border: 1px solid #f96e98;
+}
+.container-checkbox:focus input ~ .checkmark {
+  border: 1px solid #f96e98;
+}
+/* When the checkbox is checked, add a blue background */
+.container-checkbox input:checked ~ .checkmark {
+  background-color: #f96e98;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.container-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+  left: 4px;
+    top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/*-----------------------------------------------------------*/
+/* The container */
+.container-radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.container-radio .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #f96e98;
+}
+
+/* On mouse-over, add a grey background color */
+.container-radio:hover input ~ .checkmark {
+  background-color: white;
+    border: 1px solid #f96e98;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-radio input:checked ~ .checkmark {
+  background-color: #f96e98;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.container-radio .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container-radio .checkmark:after {
+ top: 3px;
+left: 3px;
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background: white;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#rings_page6 .many_rings .first_rings a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+}
+#rings_page6 .many_rings .first_rings a:hover,
+#rings_page6 .many_rings .first_rings a:active {
+  color: #f96e98;
+}
+#rings_page6 .many_rings .first_rings a span {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -1px;
+  left: -1px;
+  position: relative;
+  background-color: #f96e98;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+/*---------------start dual rings action----------------------*/
+.middle {
+  position: relative;
+  width: 100%;
+  margin-top: 53px;
+  margin-bottom: 30px;
+  /*max-width: 500px;*/
+}
+
+.slider {
+  position: relative;
+  z-index: 1;
+  height: 6px;
+  width: 100%;
+}
+.slider > .track {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background-color: #949292;
+}
+.slider > .range {
+  position: absolute;
+  z-index: 2;
+  left: 25%;
+  right: 25%;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background-color: #f96e98;
+}
+.slider > .thumb {
+  position: absolute;
+  z-index: 3;
+  width: 18px;
+  height: 18px;
+  margin-top: 4px;
+  background-color: white;
+  border: 3px solid #f96e98;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(247, 173, 218, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.slider > .thumb.left {
+  left: 25%;
+  transform: translate(-15px, -10px);
+}
+.slider > .thumb.right {
+  right: 25%;
+  transform: translate(15px, -10px);
+}
+/*.slider > .thumb.hover {
+	box-shadow: 0 0 0 10px rgba(248, 197, 228, 0.2);
+}*/
+.slider > .thumb.active {
+  box-shadow: 0 0 0 20px rgba(248, 184, 223, 0.2);
+}
+
+input[type="range"] {
+  position: absolute;
+  pointer-events: none;
+  -webkit-appearance: none;
+  z-index: 2;
+  height: 10px;
+  width: 100%;
+  opacity: 0;
+}
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: all;
+  width: 30px;
+  height: 30px;
+  border-radius: 0;
+  border: 0 none;
+  background-color: rgb(245, 141, 219);
+  -webkit-appearance: none;
+}
+#right_select_value,
+#left_select_value {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  top: -30px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #f96e98;
+}
+/*---------------start dual rings action----------------------*/
+
+/*----------------------------------end six page(التصنيفات)---------------------*/
+
+/*-----------------------------------start seven page(المنتج)---------------------------*/
+#products_details .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#products_details .header2_container_image img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#products_details .caption_header_photo{
+  position: relative;
+}
+#products_details .caption_header_photo p{
+position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #333333;
+}
+#products_details .caption_header_photo p span{
+  font-size: large;
+  font-weight: bold;
+}
+#products_details .slider_img_container img{ 
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#products_details .products_content {
+  margin-top: 80px;
+}
+#products_details .products_content .left_content {
+  text-align: right;
+  margin-top: 20px;
+}
+#products_details .products_content .left_content h6 {
+  font-weight: bold;
+}
+#products_details .products_content .left_content .stars {
+  float: right;
+  margin-left: 10px;
+}
+#products_details .products_content .left_content .review {
+  font-size: small;
+  color: #333333;
+  margin-top: 15px;
+}
+#products_details .products_content .left_content .line_on {
+  text-decoration-line: line-through;
+}
+#products_details .products_content .left_content h6 span {
+  margin-right: 20px;
+  border: 1px solid #e6e3e3;
+  background-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+#products_details .products_content .left_content button {
+  width: 40%;
+  margin-top: 25px;
+  color: white;
+  background-color: #f96e98;
+  border-radius: 15px;
+  padding: 3px;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+}
+#products_details .products_content .left_content .last {
+  margin-top: 15px;
+}
+#products_details .products_content .left_content .last span {
+  font-weight: bold;
+}
+#products_details .describe {
+  text-align: center;
+  margin-top: 80px;
+}
+#products_details .describe h3 {
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 15px;
+}
+#products_details .describe .under_line {
+  border-bottom: 2px solid #f96e98;
+  width: 30%;
+  margin-left: 34%;
+  margin-bottom: 30px;
+}
+#products_details .describe p {
+  width: 70%;
+  margin-left: 12.5%;
+  font-weight: bold;
+  color: #525151;
+}
+#products_details .last_describe {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+#products_details .last_describe h4 {
+  text-align: right;
+}
+#products_details .under_line_last_describe {
+  border-bottom: 2px solid #f96e98;
+  width: 13%;
+  margin-left: 87%;
+  margin-bottom: 30px;
+}
+/*---------------------start thumbnails slider imade-----------------*/
+#content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  width: 100%;
+  padding: 10px;
+}
+
+#featured {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.thumbnail {
+  object-fit: cover;
+  max-width: 30%;
+  max-height: 100px;
+  cursor: pointer;
+  opacity: 0.5;
+  margin: 5px;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+#slide-wrapper {
+  max-width: 500px;
+  display: flex;
+  min-height: 100px;
+  align-items: center;
+}
+
+#content-wrapper #slider {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+#slider::-webkit-scrollbar {
+  width: 8px;
+}
+
+#slider::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#slider::-webkit-scrollbar-thumb {
+  background-color: #f58aaa;
+  outline: 1px solid slategrey;
+  border-radius: 100px;
+  outline: none;
+}
+
+#slider::-webkit-scrollbar-thumb:hover {
+  background-color: #f96e98;
+  outline: none;
+}
+
+.arrow {
+  width: 10%;
+  height: 30px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  opacity: 0.8;
+}
+/*---------------------end thumbnails slider imade-----------------*/
+/*-------------------------------------end seven page(المنتج)----------------------------------*/
+/*------------------------------------start eight page(طلباتي)------------------------------*/
+#order_page8 .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#order_page8 .header2_container_image img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#order_page8 .caption_header_photo{
+  position: relative;
+}
+#order_page8 .caption_header_photo p{
+position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #333333;
+}
+#order_page8 .caption_header_photo p span{
+  font-size: large;
+  font-weight: bold;
+}
+#order_page8 .slider_img_container img{ 
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#order_page8 .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#order_page8 .caption_header_photo{
+  position: relative;
+}
+#order_page8 .caption_header_photo p{
+position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #333333;
+}
+#order_page8 .caption_header_photo p span{
+  font-size: large;
+  font-weight: bold;
+}
+#order_page8 .slider_img_container img{ 
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#order_page8 .table{
+  padding-left: 12%;
+  margin-top: 8%;
+}
+#order_page8 .delete{
+  border: 1px solid rgba(192, 181, 181, 0.75);
+  border-radius: 15px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  color: #fe7fa5;
+}
+#order_page8 .add_mins{
+  display: flex;
+}
+#order_page8 .add_mins .div-quantity{
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+#order_page8 .add_mins i{
+  border: 1px solid rgba(192, 181, 181, 0.75);
+  border-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fe7fa5;
+  cursor: pointer;
+}
+#order_page8 .table .form-control{
+  text-align: center;
+  width: 30%;
+  font-weight: bold;
+}
+#order_page8 .table .align-middle{
+  font-weight: bold;
+}
+#order_page8 .address{
+  text-align: right;
+  margin-bottom: 100px;
+}
+#order_page8 .address h6{
+  font-weight: bolder;
+  font-size: large;
+}
+#order_page8 .address .bottom_line_header{
+  border-bottom: 1px solid #f96e98;
+  width: 9%;
+  margin-left: 91%;
+  margin-bottom: 20px;
+}
+#order_page8 .address .selector{
+  width: 100%;
+  margin-bottom: 20px;
+}
+#order_page8 .address .submit_btn{
+  width: 50%;
+  font-weight: bolder;
+  background-color: #f96e98;
+  border: none;
+  border-radius: 20px;
+}
+#order_page8 .address .left_describe{
+  background-color: #e7e6e6;
+  color: #333333;
+  width: 70%;
+  margin-left: 20%;
+}
+#order_page8 .address .left_para{
+  font-weight: bold;
+  font-size: small;
+  margin-right: 5%;
+}
+#order_page8 .address .left_para span{
+  float: left;
+  margin-left: 5%;
+}
+#order_page8 .address .update_btn{
+  background-color: white;
+  color: #333333;
+  border: 1px solid #929292;
+  border-radius: 15px;
+  width: 15%;
+  margin-top: 20px;
+}
+#order_page8 .address .pay_btn{
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 15%;
+  margin-right: 30%;
+  margin-top: 20px;
+}
+/*------------------------------------end eight page(طلباتي)------------------------------*/
+
+/*-----------------------------------start nine page(الدفع)-----------------------------*/
+#pay_page9 .header2_container_image{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+#pay_page9 .header2_container_image img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#pay_page9 .caption_header_photo{
+  position: relative;
+}
+#pay_page9 .caption_header_photo p{
+position: absolute;
+top: 30%;
+right: 45%;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+color: #333333;
+}
+#pay_page9 .caption_header_photo p span{
+  font-size: large;
+  font-weight: bold;
+}
+#pay_page9 .slider_img_container img{ 
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+#pay_page9 .content_page9{
+  margin-top: 80px;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 80px;
+}
+#pay_page9 .table{
+  margin-top: 35px;
+  background-color: #eeeded;
+}
+#pay_page9 .copon_add{
+  position: relative;
+}
+#pay_page9 .copon_add i{
+  position: absolute;
+  margin-top: -4%;
+  margin-left: -4%;
+}
+#pay_page9 .companies_logo{
+  margin-top: 20px;
+}
+#pay_page9 .companies_logo img{
+  width: 15%;
+  margin: 5px;
+}
+#pay_page9 .pay_form{
+  margin-top: 80px;
+  background-color: #eeeded;
+  padding: 10px;
+}
+#pay_page9 .pay_form input{
+  background-color: #fe7fa5;
+  color: #333333;
+}
+#pay_page9 .bay_batton{
+  border-radius: 20px;
+  width: 18%;
+  margin-top: 15px;
+  margin-left: 20%;
+}
+/*-----------------------------------end nine page(الدفع)-----------------------------*/
+
+/*------------------------------------start order section-----------------------------*/
+#order .one_icon {
+  display: flex;
+}
+#order img {
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#order img:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+#order .one_icon .cap_details {
+  height: 100px;
+}
+#order .one_icon .cap_details h6 {
+  font-size: 15px;
+  font-weight: bolder;
+}
+#order .one_icon .cap_details p {
+  font-size: 13px;
+  font-weight: 300;
+}
+/*-----------------------------------end order section--------------------------------*/
+/*--------------------------------------start footer section-----------------------------------*/
+#footer .footer_back {
+  background-image: url("images/Group 27421.png");
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+}
+#footer .footer_content {
+  margin-top: 60px;
+  text-align: right;
+}
+#footer .tool_to_contact {
+  padding-top: 15px;
+}
+#footer .item {
+  display: flex;
+  float: right;
+  font-size: 13px;
+  margin-left: 20%;
+}
+#footer .item i {
+  color: #f96e98;
+}
+#footer a {
+  color: white;
+}
+#footer .logo {
+  width: 25%;
+}
+.footer_content p {
+  font-size: small;
+  font-weight: bold;
+  margin-top: 6px;
+}
+#footer .social_icons {
+  text-align: center;
+  padding-top: 8px;
+}
+#footer .social_icons a {
+  border-radius: 50%;
+  margin: 3px;
+}
+#footer .social_icons a:hover {
+  color: #f96e98;
+}
+.last_footer {
+  margin-top: 60px;
+}
+.last_footer hr {
+  height: 0.5px;
+  border-width: 0;
+  color: rgb(102, 100, 100);
+  background-color: rgb(102, 100, 100);
+  /*margin-left: 80px;*/
+}
+.last_footer p {
+  font-size: smaller;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.last_footer .owner {
+  margin-top: -7px;
+  margin-left: 70px;
+}
+.last_footer img {
+  width: 10%;
+}
+.last_footer .owner .companies a {
+  margin-left: 10px;
+}
+/*-------------------------------------end footer section---------------------------------*/
